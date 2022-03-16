@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>INDEX PAGE</h1>
+    <a href=" {% url 'articles:new' %}">CREATE</a>
+
+    {% for article in articles %}
+        {% comment %} <ul class="list-group list-group-horizontal">
+            <li class="list-group-item">{{ article.pk }}</li>
+            <li class="list-group-item">{{ article.title }}</li>
+            <li class="list-group-item">{{ article.content }}</li>
+        </ul> {% endcomment %}
+        <p>{{ article.pk }} 번째 글</p>
+        <p>제목 : {{ article.title }}</p>
+        {% comment %} <p>내용 : {{ article.content }}</p> {% endcomment %}
+        <p>작성 시간 : {{ article.created_at }}</p>
+        <hr>
+    {% endfor %}
+{% endblock content %}

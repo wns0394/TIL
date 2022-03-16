@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>NEW PAGE</h1>
+    <!-- 제목과 내용을 입력해서 요청 보낼 form tag -->
+    <form action="{% url 'articles:create' %}">
+        <label for="title">제목 : </label>
+        <input type="text" id='title' name="title"> <br>
+
+        <label for="content">내용 : </label>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea> <br>
+        {% comment %} <input type="text" id="content" name="content"> <br> {% endcomment %}
+
+        <input type="submit">
+    </form>
+{% endblock content %}

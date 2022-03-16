@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+  <title>Webex</title>
+{% endblock  %}
+
+{% block content %}
+  <h1>WEBEX 복습 PAGE</h1>
+  <ol>    
+    {% for food in foods %}
+      <li>{{ food }}</li>
+      <hr>
+    {% comment %} <span>food</span> {% endcomment %}
+    {% endfor %}
+  </ol>
+    
+{% endblock %}
