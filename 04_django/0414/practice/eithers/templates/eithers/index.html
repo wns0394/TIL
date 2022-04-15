@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Either Game</h1>
+    <a href="{% url 'eithers:create' %}">New Game</a>
+    <hr>
+    {% for either in eithers %}
+        {{ either.title }}
+    {% endfor %}
+{% endblock content %}
+

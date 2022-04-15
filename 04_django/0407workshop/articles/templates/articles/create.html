@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-text text-white display-5">
+            CREATE
+        </span>
+    </div>
+  </nav>
+  <div class="my-5">
+    <form action="{% url 'articles:create' %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit">
+        <hr>
+        <a href="{% url 'articles:index' %}">back</a>
+    </form>
+</div>
+{% endblock content %}

@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-text text-white display-5">
+            Article
+        </span>
+    </div>
+  </nav>
+    {% comment %} <a href="{% url 'articles:create' %}">CREATE</a> {% endcomment %}
+    {% comment %} <hr> {% endcomment %}
+    <table class="table table-bordered my-5">
+        <thead>
+          <tr class="text-center">
+            <th scope="col">글 번호</th>
+            <th scope="col">글 제목</th>
+            <th scope="col">글 내용</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for article in articles %}
+            <tr class="text-center">
+              <th scope="row"><a href="{% url 'articles:detail' article.pk %}">{{ article.pk }}</a></th>
+              <td>{{ article.title }}</td>
+              <td>{{ article.content }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a class="btn btn-success" href="{% url 'articles:create' %}">새로 만들기</a>
+      </div>
+    {% comment %} {% for article in articles %}
+        <p>글 번호 : {{ article.pk }}</p>
+        <p>글 제목 : {{ article.title }}</p>
+        <p>글 내용 : {{ article.content }}</p>
+        {% comment %} # <a href="{% url 'articles:detail' %}">DETAIL</a>  {% endcomment %}
+        {% comment %} <a href="{% url 'articles:detail' article.pk %}">DETAIL</a>
+        <hr>
+    {% endfor %} {% endcomment %} 
+{% endblock content %}

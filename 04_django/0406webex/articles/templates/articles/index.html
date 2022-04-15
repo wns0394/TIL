@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>INDEX PAGE</h1>
+  <a href="{% url 'articles:create' %}">CREATE</a>
+
+  {% comment %} DTL {% endcomment %}
+  {% for article in articles %}
+    <!-- html에서는 모든 문자열을 그대로 받아들인다 그러므로-->
+    <!-- DTL 변수를 보여주고 싶다면 중괄호두개를 사용해야한다-->
+    <p>{{ article.pk }}</p>
+    <p>{{ article.title }}</p>
+    <p>{{ article.content }}</p>
+    <a href="{% url 'articles:update' article.pk %}">EDIT</a>
+    <hr>
+  {% endfor %}
+{% endblock content %}

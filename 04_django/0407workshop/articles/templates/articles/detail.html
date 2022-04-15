@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <nav class="navbar navbar-light bg-dark">
+    <div class="container-fluid">
+        <span class="navbar-text text-white display-5">
+            DETAIL
+        </span>
+    </div>
+  </nav>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">제목</th>
+        <th scope="col">내용</th>
+        <th scope="col">생성일</th>
+        <th scope="col">수정일</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class ='my-5'>
+        <th scope="row">{{ article.title }}</th>
+        <td>{{ article.content }}</td>
+        <td>{{ article.created_at }}</td>
+        <td>{{ article.updated_at }}</td>
+      </tr>
+    </tbody>
+  </table>
+    {% comment %} <h2>{{ article.title }}</h2>
+    <p>{{ article.content }}</p>
+    <p>작성일 : {{ article.created_at }}</p>
+    <p>수정일 : {{ article.updated_at }}</p> {% endcomment %}
+    <a class="btn btn-success mx-1" href="{% url 'articles:update' article.pk %}">UPDATE</a> <a class="btn btn-success mx-1" href="{% url 'articles:index' %}">BACK</a>
+    <form action="{% url 'articles:delete' article.pk %}" method="POST">
+        {% csrf_token %}
+        <input class="btn btn-success m-1" type="submit" value="DELETE"> 
+    </form> 
+        
+{% endblock content %}  
