@@ -1,0 +1,112 @@
+[
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "user": 9,
+        "title": "Occur drea",
+        "content": "Yet Mrs true soon fish. Just low despite military public affect remain big.\nBuy money lawyer TV. Future system management region run whose consider yes.",
+        "created_at": "2004-07-09T17:04:27Z",
+        "updated_at": "2014-08-16T23:51:02Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "user": 9,
+        "title": "Each cost ",
+        "content": "Yet million do consider arm moment yeah. Season activity seat pay indicate brother a.\nRich nothing deep purpose point. Own name however dream wrong five.",
+        "created_at": "1998-01-28T20:36:45Z",
+        "updated_at": "2018-05-22T02:13:56Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "title": "Worker awa",
+        "content": "Surface city chair which data. Out result consider reason middle.\nMore country indeed half national compare interview.",
+        "created_at": "2008-04-05T10:12:09Z",
+        "updated_at": "2010-10-27T15:11:01Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+        "user": 4,
+        "title": "Son provid",
+        "content": "For what few ever. Himself above letter team into.\nCell lead morning. Would you marriage gas continue.\nProbably once visit myself remember moment become.",
+        "created_at": "2002-11-23T14:27:02Z",
+        "updated_at": "2006-04-28T09:26:17Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 5,
+    "fields": {
+        "user": 5,
+        "title": "Herself ad",
+        "content": "Prove add unit individual. Important simply decide network. Leave couple especially.\nHot customer reality writer. A buy simply who car he. Address someone performance.",
+        "created_at": "1991-12-09T01:56:56Z",
+        "updated_at": "1988-04-11T01:11:36Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 6,
+    "fields": {
+        "user": 10,
+        "title": "When view ",
+        "content": "About gun toward their large. Scientist moment building expert.\nOn military wife interview whose of memory under.\nKnowledge positive low matter right place. New worry last beautiful.",
+        "created_at": "2005-03-01T13:16:39Z",
+        "updated_at": "2007-06-04T00:05:03Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 7,
+    "fields": {
+        "user": 9,
+        "title": "Although o",
+        "content": "Know artist two within suffer high western. Appear story professional town style around.",
+        "created_at": "2010-04-22T02:00:33Z",
+        "updated_at": "1979-09-17T08:02:50Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 8,
+    "fields": {
+        "user": 2,
+        "title": "Cup right ",
+        "content": "Should lead major kind decide. A former station. Place individual officer stay attack have.\nCity someone sea firm lay. Exist build attack add certain behavior. Bit road senior source some manager.",
+        "created_at": "2019-10-13T21:41:12Z",
+        "updated_at": "1990-09-25T17:22:42Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 9,
+    "fields": {
+        "user": 2,
+        "title": "Deep man b",
+        "content": "Eight art relationship next design.\nGet total then appear scene assume bit. Ball key quality wish sit. Recognize girl high there themselves church move.",
+        "created_at": "1996-12-20T01:22:21Z",
+        "updated_at": "2010-10-07T15:54:17Z"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 10,
+    "fields": {
+        "user": 2,
+        "title": "One often ",
+        "content": "Garden none soon among message north. Man best dog.\nI almost between true arrive gas. Science receive source gun.\nImportant home story own think decide game. Recognize somebody training help.",
+        "created_at": "2010-08-12T17:30:52Z",
+        "updated_at": "1982-12-24T03:36:51Z"
+    }
+}
+]

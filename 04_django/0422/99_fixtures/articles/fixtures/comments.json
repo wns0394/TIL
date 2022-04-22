@@ -1,0 +1,112 @@
+[
+{
+    "model": "articles.comment",
+    "pk": 1,
+    "fields": {
+        "article": 8,
+        "user": 10,
+        "content": "Trade recently movie line next goal must. Color Republican stay area. Down avoid painting full leave since stand someone.\nMonth bar action parent effect.",
+        "created_at": "1985-01-24T02:11:58Z",
+        "updated_at": "2013-02-22T00:12:17Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 2,
+    "fields": {
+        "article": 10,
+        "user": 8,
+        "content": "Often career very lead current begin popular. Letter answer not. Activity too answer nature too cup. Serious success character animal drug bill.",
+        "created_at": "1997-04-07T11:27:58Z",
+        "updated_at": "1972-09-22T06:28:11Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 3,
+    "fields": {
+        "article": 9,
+        "user": 9,
+        "content": "Consumer idea single table resource. Discuss cell million hand once.\nMission expert fill let man may. Such though nor none throw.\nChair true wall reach.",
+        "created_at": "1975-05-08T02:40:45Z",
+        "updated_at": "1982-03-03T05:07:30Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 4,
+    "fields": {
+        "article": 6,
+        "user": 6,
+        "content": "Investment whatever wife guess worker. Land high agent lead join before exist.\nAge serious give require education parent professor. Charge soon glass.",
+        "created_at": "1979-08-11T20:56:22Z",
+        "updated_at": "1980-06-01T21:18:34Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 5,
+    "fields": {
+        "article": 10,
+        "user": 4,
+        "content": "Thank effort stage deep. Analysis threat increase interesting tonight try.\nStart lot nature class. Yeah avoid interview take alone. Support area hand find.\nNew direction TV trouble term debate.",
+        "created_at": "1991-05-07T15:59:17Z",
+        "updated_at": "1993-04-05T09:57:59Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 6,
+    "fields": {
+        "article": 1,
+        "user": 9,
+        "content": "Artist support young performance plan develop. Foreign light still while run exactly parent.\nSeek mention house. Their bar experience his news religious. Until always create.",
+        "created_at": "2002-10-22T20:47:48Z",
+        "updated_at": "1978-10-16T13:14:32Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 7,
+    "fields": {
+        "article": 4,
+        "user": 10,
+        "content": "Focus idea return test side yourself physical low. Employee will tough occur.",
+        "created_at": "1998-11-04T10:31:55Z",
+        "updated_at": "2021-12-17T02:44:27Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 8,
+    "fields": {
+        "article": 4,
+        "user": 3,
+        "content": "Describe strategy modern. Each conference worry. Respond environmental art kind information owner similar.",
+        "created_at": "2011-11-03T02:44:11Z",
+        "updated_at": "2020-02-18T04:22:51Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 9,
+    "fields": {
+        "article": 1,
+        "user": 1,
+        "content": "Executive wrong future coach final though second. International hear together fear least yard sure.",
+        "created_at": "1988-02-10T04:18:56Z",
+        "updated_at": "2006-01-12T11:15:53Z"
+    }
+},
+{
+    "model": "articles.comment",
+    "pk": 10,
+    "fields": {
+        "article": 2,
+        "user": 3,
+        "content": "The debate again police western force. Key save evening speech case low five his. Employee list hope easy seat opportunity fact phone.",
+        "created_at": "2000-01-15T14:58:06Z",
+        "updated_at": "1993-04-19T01:58:32Z"
+    }
+}
+]

@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{{ hash.content }}</h1>
+    <p>{{ articles|length }}</p>
+
+    <h2>{{ hash.content }}를 태그한 게시글들</h2>
+    {% for article in articles %}
+        <p>{{ article.title }}</p>
+        <a href="{% url 'articles:detial' article.pk %}">게시글 보러 가기</a>
+    {% endfor %}
+{% endblock content %}

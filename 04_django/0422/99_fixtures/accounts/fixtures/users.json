@@ -1,0 +1,182 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "Color pull human team drug support. Mind girl less decade think. Wear what control those.",
+        "last_login": "1970-10-16T03:48:31Z",
+        "is_superuser": true,
+        "username": "samantha75",
+        "first_name": "William",
+        "last_name": "Weeks",
+        "email": "jeffery32@example.net",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "Beautiful collection main student. Thousand capital score medical reflect. Stock figure staff choice not election.",
+        "last_login": "2003-05-24T14:20:43Z",
+        "is_superuser": false,
+        "username": "pscott",
+        "first_name": "Ronald",
+        "last_name": "Ellis",
+        "email": "barbaraharris@example.net",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 3,
+    "fields": {
+        "password": "Politics speak door. Against safe answer wait into ball. Alone feeling especially strong red measure.",
+        "last_login": "1974-05-13T11:04:33Z",
+        "is_superuser": false,
+        "username": "samantharoberson",
+        "first_name": "Martin",
+        "last_name": "Harvey",
+        "email": "rachelhoward@example.org",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "Understand level social good interest however talk. Eight gas notice politics wrong environment more.",
+        "last_login": "2003-04-24T22:24:51Z",
+        "is_superuser": true,
+        "username": "dortiz",
+        "first_name": "Paul",
+        "last_name": "Mann",
+        "email": "lopezrebecca@example.net",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "Compare relate world subject reality simple. Purpose their for ball realize cost. Station both crime imagine.",
+        "last_login": "1994-05-27T05:43:57Z",
+        "is_superuser": true,
+        "username": "csherman",
+        "first_name": "Jacqueline",
+        "last_name": "Allen",
+        "email": "bmitchell@example.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "Final law early. Surface evening home stock family over board.",
+        "last_login": "1995-11-04T17:02:58Z",
+        "is_superuser": true,
+        "username": "martintrevor",
+        "first_name": "Kristina",
+        "last_name": "Wilson",
+        "email": "joshua97@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "Talk relate member tax action per peace.\nUsually few various most. Outside city dream forget audience four simple.",
+        "last_login": "1990-10-14T18:16:44Z",
+        "is_superuser": false,
+        "username": "nking",
+        "first_name": "Christine",
+        "last_name": "Price",
+        "email": "kenneth78@example.net",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 8,
+    "fields": {
+        "password": "Meet us clearly entire walk. Each include policy during drive.\nWorry determine forward wall.",
+        "last_login": "1980-07-21T13:25:02Z",
+        "is_superuser": false,
+        "username": "sandra27",
+        "first_name": "Robin",
+        "last_name": "Johnson",
+        "email": "cruiz@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 9,
+    "fields": {
+        "password": "Happen my impact capital. Season nothing popular town nature however feel. Move between house. While doctor huge.",
+        "last_login": "2011-03-17T12:25:37Z",
+        "is_superuser": true,
+        "username": "jeromebryant",
+        "first_name": "Katherine",
+        "last_name": "Vasquez",
+        "email": "leetyrone@example.org",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 10,
+    "fields": {
+        "password": "Party star hour season reason else. Easy two black arrive specific.",
+        "last_login": "1985-12-20T11:50:31Z",
+        "is_superuser": true,
+        "username": "sara81",
+        "first_name": "Melanie",
+        "last_name": "Bryan",
+        "email": "vli@example.org",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-04-22T01:30:47.826Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]
