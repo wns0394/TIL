@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="app">
+    <h1>{{ add_computed }}</h1>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        a1: 100,
+        a2: 100,
+      },
+      computed: {
+        add_computed: function () {
+          // console.log('coumputed 실행됨')
+          alert('나는 computed 계산을 끝냈다')
+          return this.a1 + this.a2
+        }
+      },
+      beforCreate: function () {
+        console.log(this.add_computed)
+        alert('나는 beforCreate 아직 computed 없다')
+      },
+      created: function () {
+        console.log(this.add_computed)
+        alert('나는 created computed가 계산을 끝마쳤다')
+      }
+    })
+  </script>
+</body>
+
+</html>

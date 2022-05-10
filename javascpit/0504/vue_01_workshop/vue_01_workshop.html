@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lunch & Lotto</title>
+</head>
+
+<body>
+  <div id="app">
+    <h2>점심메뉴</h2>
+    <!-- <p>{{ menu }}</p> -->
+    <p> {{ menu[menuIdx] }}</p>
+    <button v-on:click="menu_select">Pick One</button>
+    <hr>
+
+    <h2>로또</h2>
+    <!-- <p>{{ number_select }}</p>
+    <p>{{ lottoNum }}</p> -->
+    <p>{{ lotto }}</p>
+    <button v-on:click="number_select">Get Lucky Numbers</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        menuIdx: 0,
+        menu: ['국밥', '돈가스', '카레', '김치찌개', '된장찌개', '브리또', '제육볶음', '굶어!!!!', '수육'],
+        // lottoNum: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45],
+        lottoNum: _.range(1,46),
+        lotto : ''
+      },
+      methods: {
+        menu_select: function () {
+          this.menuIdx = Math.floor(Math.random() * this.menu.length)
+        },
+        number_select: function () {
+          // console.log(this.lottoNum)
+          // this.lottoNum.map(function (num) {
+          //   for (let i=0; i<6; i++) {
+          //     return this.lottoNum[ Math.floor(Math.random() * this.lottoNum.length)]
+          //   }
+          // })
+          this.lotto = []
+          for (let i=0; i<6; i++) {
+              // this.lotto += this.lottoNum[ Math.floor(Math.random() * this.lottoNum.length)] + ','
+              this.lotto.push(this.lottoNum[ Math.floor(Math.random() * this.lottoNum.length)])
+            }
+          // const removeOverlapArr = this.lotto.filter(function (item, index) {
+          //   return this.lotto.indexOf(item) !== index
+          //   console.log(removeOverlapArr)
+          // })
+          // this.lotto.forEach(function (num) {
+          //   console.log(num)
+          //   console.log(num.count)
+          //   console.log(num.length)
+            // if (num in this.lotto) {
+            //   console.log(num)
+            // }
+          // })
+          // const newLotto = this.lotto.filter(function (num) {
+          //   return num.count != 1
+          // })
+          // console.log(newLotto)
+          // for (let num in this.lotto) {
+          //   // console.log(this.lotto[num].count)
+          //   if (this.lotto[num] in this.lotto) {
+          //     console.log(this.lotto[num])
+          //     this.lotto.replace(num,this.lottoNum[ Math.floor(Math.random() * this.lottoNum.length)])
+          //   }
+          // }
+            // while (this.lotto.length === 6) {
+            //   for (let num of lotto) {
+            //     if (num in lotto) {
+            //       pass
+            //     } else {
+            //       this.lotto.push(this.lottoNum[ Math.floor(Math.random() * this.lottoNum.length)])
+            //     }
+            //   }
+            // }
+        }
+      },
+    })
+  </script>
+</body>
+
+</html>
